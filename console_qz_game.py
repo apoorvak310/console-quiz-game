@@ -32,29 +32,54 @@
 import time
 print("MATH QUIZZ")
 quiz = {
-    "What is the capital of India?": {
-        "options": ["Mumbai", "Delhi", "Kolkata", "Chennai"],
-        "answer": 'b'
+    "What is 15 + 27?": {
+        "options": ["32", "42", "52", "62"],
+        "answer": "b"
     },
 
-    "Which planet is known as the Red Planet?": {
-        "options": ["Earth", "Mars", "Jupiter", "Venus"],
-        "answer": 'b'
+    "What is 9 * 8?": {
+        "options": ["63", "72", "81", "64"],
+        "answer": "b"
     },
 
-    "What is 10 * 5?": {
-        "options": ["15", "50", "100", "25"],
-        "answer": 'b'
+    "What is 144 / 12?": {
+        "options": ["10", "11", "12", "14"],
+        "answer": "c"
     },
 
-    "Who wrote Romeo and Juliet?": {
-        "options": ["William Shakespeare", "Charles Dickens", "Mark Twain", "Jane Austen"],
-        "answer": 'a'
+    "What is 25% of 200?": {
+        "options": ["25", "40", "50", "75"],
+        "answer": "c"
     },
 
-    "How many continents are there?": {
-        "options": ["5", "6", "7", "8"],
-        "answer": 'c'
+    "What is 7²?": {
+        "options": ["14", "42", "49", "56"],
+        "answer": "c"
+    },
+
+    "What is 100 - 37?": {
+        "options": ["53", "63", "73", "67"],
+        "answer": "b"
+    },
+
+    "What is 3/4 of 80?": {
+        "options": ["40", "50", "60", "70"],
+        "answer": "c"
+    },
+
+    "If x + 15 = 32, what is x?": {
+        "options": ["15", "17", "19", "21"],
+        "answer": "b"
+    },
+
+    "What is the perimeter of a square with a side of 6 cm?": {
+        "options": ["12 cm", "18 cm", "24 cm", "36 cm"],
+        "answer": "c"
+    },
+
+    "What is 2³ + 5²?": {
+        "options": ["27", "31", "33", "35"],
+        "answer": "c"
     }
 }
 score = 0
