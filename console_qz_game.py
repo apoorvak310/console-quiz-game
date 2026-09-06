@@ -1,34 +1,3 @@
-# quiz = {
-#     "What is the capital of India?": "delhi",
-#     "What is 5 + 7?": "12",
-#     "Which planet is known as the Red Planet?": "mars",
-#     "What is the largest ocean on Earth?": "pacific ocean",
-#     "Who wrote Romeo and Juliet?": "william shakespeare",
-#     "How many continents are there?": "7",
-#     "What is the chemical symbol for water?": "h2o",
-#     "Which language is used to create web pages?": "html",
-#     "What is the largest mammal in the world?": "blue whale",
-#     "How many days are there in a leap year?": "366"
-# }
-# score = 0
-# choice = input("Do you want to start the quiz? (y/n): ").strip().lower()
-# if choice == 'n':
-#     print("Okay, see you next time!!")
-# elif choice == 'y':
-#     for k,v in quiz.items():
-#         print(k,end=" ")
-#         ans = input("Answer...").lower()
-#         if ans == quiz[k]:
-#             score += 1
-#             print(True)
-#         elif ans in quiz[k].split():
-#             print("Too close, but not correct")
-#         else:
-#             print("Wrong answer")
-# else:
-#     print("Enter valid input")
-# print("You scored",score,"out of",len(quiz))
-
 import time
 print("MATH QUIZZ")
 quiz = {
